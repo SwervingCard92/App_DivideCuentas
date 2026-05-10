@@ -1,0 +1,33 @@
+name: divide_cuenta
+description: App para dividir cuentas entre amigos en pesos mexicanos.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Descomenta esta línea para activar el botón de WhatsApp:
+  # url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Para agregar la fuente Poppins:
+  # 1. Ve a pubspec.yaml en tu editor
+  # 2. Descomenta las líneas de abajo
+  # 3. Descarga Poppins de Google Fonts y ponla en assets/fonts/
+  #
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
